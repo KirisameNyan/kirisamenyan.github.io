@@ -38,29 +38,37 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
+		// 自定义壁纸：每次刷新随机取一张（17 张）
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/custom-01.avif",
+			"assets/images/DesktopWallpaper/custom-02.avif",
+			"assets/images/DesktopWallpaper/custom-03.avif",
+			"assets/images/DesktopWallpaper/custom-04.avif",
+			"assets/images/DesktopWallpaper/custom-05.avif",
+			"assets/images/DesktopWallpaper/custom-06.avif",
+			"assets/images/DesktopWallpaper/custom-07.avif",
+			"assets/images/DesktopWallpaper/custom-08.avif",
+			"assets/images/DesktopWallpaper/custom-09.avif",
+			"assets/images/DesktopWallpaper/custom-10.avif",
+			"assets/images/DesktopWallpaper/custom-11.avif",
+			"assets/images/DesktopWallpaper/custom-12.avif",
+			"assets/images/DesktopWallpaper/custom-13.avif",
+			"assets/images/DesktopWallpaper/custom-14.avif",
+			"assets/images/DesktopWallpaper/custom-15.avif",
+			"assets/images/DesktopWallpaper/custom-16.avif",
+			"assets/images/DesktopWallpaper/custom-17.avif",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
+		// 竖屏专用：仅移动端/纵向视口使用
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"assets/images/MobileWallpaper/custom-m1.avif",
 		],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
 		// playerUrl: "/assets/videos/firefly.mp4",
-		playerUrl: "https://bed.twoleaf.cn/file/1785658612716_firefly.mp4",
+		playerUrl: "/assets/videos/custom-bg.mp4",
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
@@ -107,18 +115,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "GitHub",
 					icon: "fa7-brands:github",
-					url: "https://github.com/CuteLeaf/Firefly",
+					url: "https://github.com/KirisameNyan",
 					showName: true,
-				},
-				{
-					name: "Email",
-					icon: "fa7-solid:envelope",
-					url: "mailto:xiaye@msn.com",
-				},
-				{
-					name: "Sponsor",
-					icon: "material-symbols:favorite",
-					url: "https://blog.cuteleaf.cn/sponsor/",
 				},
 				{
 					name: "RSS",

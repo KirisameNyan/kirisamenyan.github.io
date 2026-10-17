@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -85,7 +85,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// Favicon 配置
-	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的favicon图标
+	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的图标
 	favicon: [
 		{
 			src: "/favicon/neko-teal-192.png",
@@ -110,9 +110,9 @@ export const siteConfig: SiteConfig = {
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
 		logo: {
 			type: "image",
-			value: "assets/images/logo/firefly-light.png",
-			valueDark: "assets/images/logo/firefly-dark.png",
-			alt: "🍀",
+			value: "assets/images/logo/neko-light.png",
+			valueDark: "assets/images/logo/neko-dark.png",
+			alt: "🐱",
 		},
 		// 导航栏标题
 		title: "Kirisame的小窝",
