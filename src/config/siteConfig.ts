@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
 	title: "雾雨的小站",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "",
 
 	// 站点 URL
 	site_url: "https://kirisamenyan.github.io",
