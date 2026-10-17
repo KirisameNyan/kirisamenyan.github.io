@@ -88,11 +88,11 @@ export const siteConfig: SiteConfig = {
 	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的favicon图标
 	favicon: [
 		{
-			src: "/favicon/neko-192.png",
+			src: "/favicon/neko-teal-192.png",
 			sizes: "192x192",
 		},
 		{
-			src: "/favicon/neko-32.png",
+			src: "/favicon/neko-teal-32.png",
 			sizes: "32x32",
 		},
 	],
