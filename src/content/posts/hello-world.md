@@ -1,7 +1,6 @@
 ---
 title: 你好，世界
 published: 2026-10-17
-pinned: true
 description: 这个小站的第一篇文章 —— 它是什么，以及我打算在这里写些什么。
 tags: [随笔, 关于]
 category: 随笔
