@@ -3,7 +3,7 @@ title: Pacman报错GPGME错误解决方法
 published: 2026-10-23
 description: '记一次pacman的错误处理'
 image: ''
-tags: []
+tags: [Arch Linux]
 category: ''
 draft: false
 lang: ''
