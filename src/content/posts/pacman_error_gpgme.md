@@ -4,7 +4,7 @@ published: 2026-10-23
 description: '记一次pacman的错误处理'
 image: ''
 tags: [Arch Linux]
-category: ''
+category: 'Arch Linux'
 draft: false
 lang: ''
 slug: pacman_error_gpgme
